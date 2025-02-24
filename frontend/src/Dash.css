@@ -1,0 +1,120 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black; /* Red background */
+    margin: 0;
+    padding: 20px;
+    color: white; /* White text for contrast */
+}
+
+h4 {
+    font-size: 55px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: white; /* White color for headings */
+}
+
+.balance {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6); /* Light white background for balance */
+    margin-bottom: 23px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.balance img {
+    width: 24px;
+    height: 24px;
+}
+
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6); /* Light white background */
+    box-shadow: 0 0 10px #cc0000;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black; /* Red border for form elements */
+    width: 100%;
+}
+
+form button {
+    background: black; /* Red button background */
+    color: white; /* White text */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: black; /* Darker red on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add slight shadow on hover */
+}
+
+.expense-table {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 35px;
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-table th, .expense-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white; /* White text in table */
+    background-color: black; /* Red table background */
+}
+
+.expense-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light white hover effect on rows */
+}
+
+#generate-excel {
+    background: black; /* Red background for the button */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100px;
+    margin: 20px auto;
+    display: block;
+}
